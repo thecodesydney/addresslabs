@@ -1,2 +1,2 @@
 # addresslabs
-Know everything about your address
+Community Contributed Address Data
