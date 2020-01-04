@@ -42,11 +42,11 @@ export default function Home() {
         <Grid item xs={12}>
           <Paper className={classes.paper}>
             <Typography component="div">
-              <Box fontStyle="normal" fontSize="h5.fontSize" fontWeight="fontWeightBold" m={1}>
-                AddressLabs
+              <Box fontStyle="normal" fontSize="h3.fontSize" fontWeight="fontWeightBold" m={1}>
+                Address Labs
               </Box>
-              <Box fontStyle="normal" m={1}>
-                Community Contributed Open Datasets for Australian Addresses
+              <Box fontSize="h5.fontSize" fontStyle="normal" m={1}>
+                Community Contributed Open Datasets for NSW Addresses
               </Box>
             </Typography>
 
@@ -60,13 +60,13 @@ export default function Home() {
               </Grid>
             </Grid>
                 
-
-            <Typography variant="body1" align="right">
-              Address Type Ahead lookup API is powered by
+            <Typography variant="body1" align="Centre">
+              <div>Powered by</div>
               <a href="https://harmonyrightaddress.com" target="_blank" rel="noopener noreferrer" >
                 <img className="responsive-img" src="HARMONYRightAddressSmall.png" alt="Harmony RightAddress" />
               </a>
             </Typography>
+
           </Paper>
         </Grid>
 
