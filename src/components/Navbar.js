@@ -8,7 +8,7 @@ const Navbar = (props) => {
     <div>
       <nav className="blue darken-2">
         <div className="nav-wrapper">
-          <a href="#" className="brand-logo center">Opend</a>
+          <a href="#" className="brand-logo center">Address Labs</a>
           <a href="#!" data-target="mobile-nav" className="sidenav-trigger">
             <i className="material-icons">menu</i>
           </a>
